@@ -1,0 +1,11 @@
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\bin\Debug\netcoreapp3.0\HolaMundo.exe
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\bin\Debug\netcoreapp3.0\HolaMundo.deps.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\bin\Debug\netcoreapp3.0\HolaMundo.runtimeconfig.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\bin\Debug\netcoreapp3.0\HolaMundo.runtimeconfig.dev.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\bin\Debug\netcoreapp3.0\HolaMundo.dll
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\bin\Debug\netcoreapp3.0\HolaMundo.pdb
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\obj\Debug\netcoreapp3.0\HolaMundo.csprojAssemblyReference.cache
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\obj\Debug\netcoreapp3.0\HolaMundo.AssemblyInfoInputs.cache
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\obj\Debug\netcoreapp3.0\HolaMundo.AssemblyInfo.cs
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\obj\Debug\netcoreapp3.0\HolaMundo.dll
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\HolaMundo\obj\Debug\netcoreapp3.0\HolaMundo.pdb
