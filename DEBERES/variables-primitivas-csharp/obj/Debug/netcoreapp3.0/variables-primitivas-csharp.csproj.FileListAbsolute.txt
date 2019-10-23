@@ -1,0 +1,11 @@
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\bin\Debug\netcoreapp3.0\variables-primitivas-csharp.exe
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\bin\Debug\netcoreapp3.0\variables-primitivas-csharp.deps.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\bin\Debug\netcoreapp3.0\variables-primitivas-csharp.runtimeconfig.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\bin\Debug\netcoreapp3.0\variables-primitivas-csharp.runtimeconfig.dev.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\bin\Debug\netcoreapp3.0\variables-primitivas-csharp.dll
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\bin\Debug\netcoreapp3.0\variables-primitivas-csharp.pdb
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\obj\Debug\netcoreapp3.0\variables-primitivas-csharp.csprojAssemblyReference.cache
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\obj\Debug\netcoreapp3.0\variables-primitivas-csharp.AssemblyInfoInputs.cache
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\obj\Debug\netcoreapp3.0\variables-primitivas-csharp.AssemblyInfo.cs
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\obj\Debug\netcoreapp3.0\variables-primitivas-csharp.dll
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\variables-primitivas-csharp\obj\Debug\netcoreapp3.0\variables-primitivas-csharp.pdb
