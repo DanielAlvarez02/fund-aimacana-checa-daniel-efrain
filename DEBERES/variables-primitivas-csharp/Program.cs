@@ -14,6 +14,7 @@
  * string   -> cadenas de caracteres                     Ej: "mi perro es lindo"
  * dinamic  -> adivina que tipo de dato usas (no recomendable)
  */
+ console.WriteLine
 namespace variables_primitivas_csharp
 {
     class Program
@@ -21,10 +22,10 @@ namespace variables_primitivas_csharp
         static void Main(string[] args)
         {
             byte variable = 30;
-            Console.WriteLine("el valor de la variable es "  + variable);
+            Console.WriteLine("el valor de la variable el ")  + variable;
             Console.ReadKey();
             int x = 239;
-            Console.WriteLine("el valor de x es"  + x);
+            Console.WriteLine("el valor de x es " + x);
             Console.ReadKey();
             double precio = 30.34;
             Console.WriteLine("el valor del precio es "  + precio);
