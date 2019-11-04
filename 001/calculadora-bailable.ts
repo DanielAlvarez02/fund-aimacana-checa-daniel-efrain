@@ -4,6 +4,7 @@ const opcion   = prompt("ingrese para: sumar [A]; restar [B]; Multiplicar [C]; D
  
 const numeroc = Number(numero01);
 const numeroa = Number(numero02);
+const euler = Math.E
 
 if( opcion == "A"){
     console.log(numeroc + numeroa);
@@ -14,7 +15,7 @@ if( opcion == "A"){
 }else if(opcion == "D"){
     console.log(numeroc % numeroa);
 }else if(opcion == "E"){
-    console.log( Math.exp(numeroc) ); 
-    console.log( Math.exp(numeroa) );
+    console.log( euler ** numeroc); 
+    console.log( euler ** numeroa);
 }else console.log("");
 
