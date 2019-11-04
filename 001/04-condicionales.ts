@@ -57,3 +57,56 @@ if(estaCasado == true && tengoMosa == true){
 // estaActivadaLaAlarma != true
 // estaEnModoSilencio == true
 // const seAtrasoAClase = celularDescargado ==true || amaneceMuerto  == true || estaActivadaLaAlarma != true|| estaActivadaLaAlarma != true || estaEnModoSilencio == true;
+
+
+
+//TRUTY
+const nombreVacio ="";
+if(null){
+    console.log("Truty"); 
+}else{
+    console.log("Falsy");
+}
+ //Falsy
+
+
+
+// switch
+const calculo = "sumar"; //sumar restar multiplicar dividir
+
+ switch (calculo) {
+    case "sumar":
+      //codigo de sumar
+      break;
+    case "restar":
+      //code restar
+      break;
+    case "multiplicar":
+      //multiplicar code
+      break;
+    case "dividir":
+      // code dividir
+      break;   
+    default:
+      //calculadora con switch
+      break;
+  }
+
+
+  // 6 guagua
+  // 18 guambra
+  // 65 longo
+  // 66 ruku
+
+  const vida = prompt("ingrese la edad");
+  const vidas = Number(vida);
+
+  if(vidas < 6 || vidas == 6){
+      console.log("guagua");
+  }else if ( vidas < 6 && vidas <= 18){
+      console.log("guambra");
+  }else if(vidas > 18 || vidas < 65 || vidas == 65){
+      console.log("longo");
+  }else if(vidas == 66){
+      console.log("ruku");
+  }else console.log("nos es ecuatoriano");
