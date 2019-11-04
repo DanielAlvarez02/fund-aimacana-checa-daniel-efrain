@@ -1,3 +1,4 @@
+//Calculadora con operaciones básicas y función exponencial
 const numero01 = prompt("ingresa el numero 1");
 const numero02 = prompt("ingresa el numero 2");
 const opcion   = prompt("ingrese para: sumar [A]; restar [B]; Multiplicar [C]; Dividir [D]; Exponencial[E]");
