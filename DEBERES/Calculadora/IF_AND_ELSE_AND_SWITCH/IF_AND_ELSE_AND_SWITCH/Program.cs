@@ -57,6 +57,83 @@ namespace IF_AND_ELSE_AND_SWITCH
                 Console.WriteLine("La alarma se activará ahora");
             }
             else { }
+
+            // Ejemplos de switch
+
+            //Ejemplo 1 : Factura
+double PVP = 30;
+            char ingrese = Console.WriteLine("Por favor ingrese nombre del producto con descuento(en mayúsculas)");
+            String
+switch(precioConDescuento){
+    case "DEJA" : {
+        const Descuento = 10;
+        const factura = console.log(PVP - Descuento);
+        break;
+    }
+    case "JURIS" : {
+        const Descuento = 5;
+        const factura = console.log(PVP - Descuento);
+        break;    
+    }
+    case "HUEVOS" : {
+        const Descuento = 2;
+        const factura = console.log(PVP - Descuento);
+        break; 
+    }
+    default : {
+        console.log("Ingrese un código Válido");
+        break;
+    }
+}
+
+// Ejemplo 2 : Preferncias musicales
+const buscador = prompt("Ingrese nombre de la canción que  desea reproducir");
+buscador.toLocaleUpperCase;
+
+switch(buscador) { 
+    case "ROCK": {
+        console.log("Deseas ecuchar : AC/DC, NIRVANA, ROLLING STONES, ETC...");
+        break;
+    }
+    case "INDIE": {
+        console.log("Desas ecuchar : MILKYCHANCE");
+        break;
+    }
+    case "ELECTRONICA": { 
+        console.log("Deseaas escuchar Aoron Smith, David guetta, etc ...");
+        break;
+    }
+    default : {
+        console.log("Sugerrir aleatoriamente");
+        break;
+    }
+}
+
+// Ejemplo 3 : Calificaciones
+const nota = prompt("ingrese calificacion"); 
+switch(nota) { 
+   case "10": { 
+      console.log("Excelente"); 
+      break; 
+   } 
+   case "8": { 
+      console.log("BUENO"); 
+      break; 
+   } 
+   case "6": {
+      console.log("FALLIDO"); 
+      break;    
+   } 
+   case "4": { 
+      console.log("DESCARTADO"); 
+      break; 
+   }  
+   default: { 
+      console.log("Estudiante fuuera de nomina"); 
+      break;              
+   } 
+}
+            
            
         }
     }
