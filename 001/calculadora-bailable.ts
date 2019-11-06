@@ -1,22 +1,22 @@
 //Calculadora con operaciones básicas y función exponencial
-const numero01 = prompt("ingresa el numero 1");
-const numero02 = prompt("ingresa el numero 2");
-const opcion   = prompt("ingrese para: sumar [A]; restar [B]; Multiplicar [C]; Dividir [D]; Exponencial[E]");
+const numero1 = prompt("ingresa el numero 1");
+const numero2 = prompt("ingresa el numero 2");
+const opción   = prompt("ingrese para: sumar [A]; restar [B]; Multiplicar [C]; Dividir [D]; Exponencial[E]");
  
-const numeroc = Number(numero01);
-const numeroa = Number(numero02);
+const numero0c = Number(numero1);
+const numer0a = Number(numero2);
 const euler = Math.E
 
-if( opcion == "A"){
-    console.log(numeroc + numeroa);
+if( opción == "A"){
+    console.log(numero0c + numer0a);
 }else if(opcion == "B"){
-    console.log(numeroc - numeroa);
+    console.log(numero0c - numer0a);
 }else if(opcion == "C"){
-    console.log(numeroc * numeroa);
+    console.log(numero0c * numer0a);
 }else if(opcion == "D"){
-    console.log(numeroc % numeroa);
+    console.log(numero0c / numer0a);
 }else if(opcion == "E"){
-    console.log( euler ** numeroc); 
-    console.log( euler ** numeroa);
+    console.log( euler ** numero0c); 
+    console.log( euler ** numer0a);
 }else console.log("");
 

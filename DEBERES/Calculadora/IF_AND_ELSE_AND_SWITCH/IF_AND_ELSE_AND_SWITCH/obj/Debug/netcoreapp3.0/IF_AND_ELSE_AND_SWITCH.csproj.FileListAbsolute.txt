@@ -1,0 +1,11 @@
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\bin\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.exe
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\bin\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.deps.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\bin\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.runtimeconfig.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\bin\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.runtimeconfig.dev.json
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\bin\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.dll
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\bin\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.pdb
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\obj\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.csprojAssemblyReference.cache
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\obj\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.AssemblyInfoInputs.cache
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\obj\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.AssemblyInfo.cs
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\obj\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.dll
+C:\Users\PC-ON\Documents\poli\fundamentos de pogra\fund-aimacana-checa-daniel-efrain\DEBERES\Calculadora\IF_AND_ELSE_AND_SWITCH\IF_AND_ELSE_AND_SWITCH\obj\Debug\netcoreapp3.0\IF_AND_ELSE_AND_SWITCH.pdb
