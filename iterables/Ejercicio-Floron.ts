@@ -1,3 +1,4 @@
+
 let  arregloFloron = [0,0,0,0,1];
 let existeElFloro = false;
 for(let i = 0; i < 5 ; i++){
