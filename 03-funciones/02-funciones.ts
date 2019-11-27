@@ -29,6 +29,9 @@ function calculadora(){
     const esDivision:Boolean = operacion == 'division' ||
           operacion == '4' ||
           operacion == 'division-4';
+    const seTermina: Boolean = operacion == 'seTermina'||
+          operacion == '5'  ||
+          operacion == 'terminar-5';
     const estaValida :Boolean = esSuma || esResta || esMultiplicacion || esDivision;   
 
     if(estaValida){
@@ -46,14 +49,15 @@ function calculadora(){
     }else{
     if(esDivision){
         resultado = dividir(numeUno,numDos);
-    }else
-    console.log(resultado);
+    }
+
 }
-    calculadora();
 
 }
 }
-}
+alert("tu resultado es" + resultado);
+calculadora();
+
 
 //pseudocodigo
 /*
@@ -66,4 +70,12 @@ function calculadora(){
     2.2.3) Ejecutar la operacion
 *\
 */
-}
+            }else{
+                if (seTermina){
+                    alert("adios");
+                }else{
+                    calculadora();
+                }
+                        }
+        }
+

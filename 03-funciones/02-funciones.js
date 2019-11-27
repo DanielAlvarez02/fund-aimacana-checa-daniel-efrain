@@ -27,6 +27,9 @@ function calculadora() {
     var esDivision = operacion == 'division' ||
         operacion == '4' ||
         operacion == 'division-4';
+    var seTermina = operacion == 'seTermina' ||
+        operacion == '5' ||
+        operacion == 'terminar-5';
     var estaValida = esSuma || esResta || esMultiplicacion || esDivision;
     if (estaValida) {
         var numeUno = +prompt("Numero 1");
@@ -47,22 +50,18 @@ function calculadora() {
                     if (esDivision) {
                         resultado = dividir(numeUno, numDos);
                     }
-                    else
-                        console.log(resultado);
                 }
-                calculadora();
             }
         }
+        alert("tu resultado es" + resultado);
+        calculadora();
     }
-    //pseudocodigo
-    /*
-    1)Seleccionar operacion
-    2.1) La seleccion no es valida
-        2.1.1) Vueñlve a seleccionar la operacion
-    2.2) La sellecion non es valida
-        2.2.1) Ingresar primer numero
-        2.2.2) Ingresar segundo numero
-        2.2.3) Ejecutar la operacion
-    *\
-    */
+    else {
+        if (seTermina) {
+            alert("adios");
+        }
+        else {
+            calculadora();
+        }
+    }
 }
