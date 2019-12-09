@@ -1,0 +1,11 @@
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\obj\Debug\netcoreapp3.1\Calculadora-Examen.csprojAssemblyReference.cache
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\obj\Debug\netcoreapp3.1\Calculadora-Examen.AssemblyInfoInputs.cache
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\obj\Debug\netcoreapp3.1\Calculadora-Examen.AssemblyInfo.cs
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\bin\Debug\netcoreapp3.1\Calculadora-Examen.exe
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\bin\Debug\netcoreapp3.1\Calculadora-Examen.deps.json
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\bin\Debug\netcoreapp3.1\Calculadora-Examen.runtimeconfig.json
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\bin\Debug\netcoreapp3.1\Calculadora-Examen.runtimeconfig.dev.json
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\bin\Debug\netcoreapp3.1\Calculadora-Examen.dll
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\bin\Debug\netcoreapp3.1\Calculadora-Examen.pdb
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\obj\Debug\netcoreapp3.1\Calculadora-Examen.dll
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\Calculadora-Examen\obj\Debug\netcoreapp3.1\Calculadora-Examen.pdb
