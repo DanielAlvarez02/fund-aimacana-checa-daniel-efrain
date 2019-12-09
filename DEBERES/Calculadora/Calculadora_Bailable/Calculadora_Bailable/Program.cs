@@ -33,7 +33,7 @@ namespace Calculadora_Bailable
             {
                 Console.WriteLine(Convert.ToDouble(Math.Pow(euler, numero01)));
                 Console.WriteLine(Convert.ToDouble(Math.Pow(euler, numero02)));
-            } 
+            }
 
         
 
