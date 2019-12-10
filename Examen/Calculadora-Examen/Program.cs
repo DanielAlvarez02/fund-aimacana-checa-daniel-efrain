@@ -39,7 +39,7 @@ namespace Calculadora_Examen
 
 		public static double Cateto(double hipotenusa, double cateto)
 		{
-			return Math.Sqrt(Math.Pow(hipotenusa, 2) + Math.Pow(cateto, 2));
+			return Math.Sqrt(Math.Pow(hipotenusa, 2) - Math.Pow(cateto, 2));
 		}
 
 		public static double Logaritmo(double numero1)
