@@ -1,0 +1,11 @@
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\bin\Debug\netcoreapp3.1\CANCIONES.exe
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\bin\Debug\netcoreapp3.1\CANCIONES.deps.json
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\bin\Debug\netcoreapp3.1\CANCIONES.runtimeconfig.json
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\bin\Debug\netcoreapp3.1\CANCIONES.runtimeconfig.dev.json
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\bin\Debug\netcoreapp3.1\CANCIONES.dll
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\bin\Debug\netcoreapp3.1\CANCIONES.pdb
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\obj\Debug\netcoreapp3.1\CANCIONES.csprojAssemblyReference.cache
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\obj\Debug\netcoreapp3.1\CANCIONES.AssemblyInfoInputs.cache
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\obj\Debug\netcoreapp3.1\CANCIONES.AssemblyInfo.cs
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\obj\Debug\netcoreapp3.1\CANCIONES.dll
+C:\Users\Daniel Aimacaña\Documents\GitHub\fund-aimacana-checa-daniel-efrain\Examen\CANCIONES\obj\Debug\netcoreapp3.1\CANCIONES.pdb
