@@ -77,14 +77,14 @@ namespace CANCIONES
 
         static string[] Editar(string[] canciones)
         {
-            Console.Write("Cual pelicula desea editar: ");
+            Console.Write("Cual cancion desea editar: ");
             string editar = Console.ReadLine();
 
             for (int i = 0; i < canciones.Length; i++)
             {
                 if (canciones[i] == editar)
                 {
-                    Console.Write("Ingrese la nueva pelicula: ");
+                    Console.Write("Ingrese la nueva cancion: ");
                     string nuevaCancion = Console.ReadLine();
                     canciones[i] = nuevaCancion;
                 }
