@@ -5,23 +5,71 @@ const arregloMatriz = [
     [9]
 ]
 
+function main(){
+    const matrizUno = [
+        [1,2],
+        [3]
+    ]
+
+    const matrizDos = [
+        [1,2],
+        [3,4],
+    ];
+    compararMatriz(matrizUno, matrizDos);
+}
+
+main();
 
 function compararMatriz(
     matrizUno: number[][],
     matrizDos: number[][]
 ):boolean{
+    const matrizUnoPrimeraDimension = obtenerPrimeraMatriz(matrizUno);
+    const matrizUnoSegundaDimension = obtenerPrimeraMatriz(matrizUno);
+    const matrizDosPrimeraDimension = obtenerSegundaMatriz(matrizDos);
+    const matrizDosSegundaDimension = obtenerSegundaMatriz(matrizDos);
+
+    console.log(matrizUnoPrimeraDimension);
+    console.log(matrizUnoSegundaDimension);
+    console.log(matrizDosPrimeraDimension);
+    console.log(matrizDosSegundaDimension);
+
     return true;
 }
 
-function obtenerPrimeraMatriz(matrizUno: number[][]):number | false{
+function obtenerPrimeraMatriz(matrizUno: number[][]):number | boolean{
     
     //VALIDACIONES
     const esValido = verificarTodosLosElementosDeUnArreglo(matrizUno);
     
     if(esValido){
 
-        const primeraDimensionDelArreglo =  matrizUno.length;
-        return primeraDimensionDelArreglo;
+        const esValido = verificarTodosLosElementosDeUnArreglo(matrizUno);
+        let longitudActualMaxima = 0; //AUXILIAR
+        let longitudActualMinima = -1; //AUXILIAR
+        for(let i = 0; i + 1 < matrizUno.length; i++ )
+        {
+           
+            const elementoActual = matrizUno[i]; //arreglo
+            const longitudActual = elementoActual.length // segunda dimension
+            
+                if(longitudActualMaxima < longitudActual){
+                longitudActualMaxima = longitudActual;
+                }
+    
+                if(longitudActualMinima == -1){
+                    longitudActualMinima = longitudActual;
+                    }else{
+                        if(longitudActual < longitudActualMinima){
+                            longitudActualMinima = longitudActual;
+                        }
+                    }
+                }
+                if(longitudActualMaxima != longitudActualMinima){
+                    return false
+                }else{
+                    return matrizUno[0].length;
+                }
         
     }else{
         return false;
@@ -31,11 +79,12 @@ function obtenerPrimeraMatriz(matrizUno: number[][]):number | false{
     
 }
 
-function obtenerSegundaMatrizChef(matrizUno: number[][]):number | false{
+function obtenerSegundaMatrizChef(matrizUno: number[][]):number | boolean{
     const esValido = verificarTodosLosElementosDeUnArreglo(matrizUno);
     let longitudActualMaxima = 0; //AUXILIAR
     let longitudActualMinima = -1; //AUXILIAR
-    for(let i = 0; i + 1 < matrizUno.length; i++ ){
+    for(let i = 0; i + 1 < matrizUno.length; i++ )
+    {
        
         const elementoActual = matrizUno[i]; //arreglo
         const longitudActual = elementoActual.length // segunda dimension
@@ -52,12 +101,19 @@ function obtenerSegundaMatrizChef(matrizUno: number[][]):number | false{
                     }
                 }
             }
-            return false;
-        }
+            if(longitudActualMaxima != longitudActualMinima){
+                return false
+            }else{
+                return matrizUno[0].length;
+            }
+            
+    }
+
+    
 
 
 
-function obtenerSegundaMatriz(matrizUno: number[][]):number | false{
+function obtenerSegundaMatriz(matrizUno: number[][]):number | boolean{
     const esValido = verificarTodosLosElementosDeUnArreglo(matrizUno);
     for(let i = 0; i + 1 < matrizUno.length; i++ ){
         const elementoActual = matrizUno[i]; //arreglo
@@ -88,3 +144,4 @@ function verificarTodosLosElementosDeUnArreglo(arreglo: any[]){
     return false;    
 
 }
+
