@@ -1,0 +1,18 @@
+{
+    "nombre" : "Daniel",
+    "apellido" : "Aimacaña",
+    "edad" : 30,
+    "casado" : false,
+    "hijos" : null,
+    "mascotas" : ["Laica"],
+    "primo" : 
+    {
+        "nombre" : "Pancho",
+        "apellido" : "Flores",
+        "edad" : 24,
+        "casado" : false,
+        "hijos" : null,
+        "mascotas" : ["Pelusa"]   
+    }
+        
+}

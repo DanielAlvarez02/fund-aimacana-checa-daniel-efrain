@@ -1,0 +1,14 @@
+{
+  "name": "05-proyectos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "empezar": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "libreria-2020": "^1.0.0"
+  }
+}
