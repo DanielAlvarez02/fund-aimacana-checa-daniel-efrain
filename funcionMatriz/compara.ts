@@ -49,5 +49,13 @@ function suma(arreglo1){
     const fila2 = arreglo1[1][0].lenght + arreglo1[1][1].lenght + arreglo1[1][2].lenght;
     console.log(fila2); 
 }       
+
+
+
+// Cambiar las diagonales de una matriz
+const dimensionDelArreglo = arreglo1[0].length;
+function cambiarDiagonal(matriz){
+    for ( let i = 0 ;  i <= dimensionDelArreglo ; i++)
 }
+
 
