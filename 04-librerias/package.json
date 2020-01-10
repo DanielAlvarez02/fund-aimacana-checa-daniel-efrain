@@ -1,16 +1,16 @@
 {
-  "name": "caluladora-20",
-  "version": "1.0.0",
+  "name": "libreria-20",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "caluladora",
-    "epn",
-    "06"
+    "epen",
+    "libreria",
+    "20"
   ],
-  "author": "Daniel Aimacaña",
+  "author": "daniel aimacaña",
   "license": "ISC"
 }
