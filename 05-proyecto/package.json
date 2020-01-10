@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "libreria-20": "^1.1.0",
     "libreria-2020": "^1.0.0"
   }
 }

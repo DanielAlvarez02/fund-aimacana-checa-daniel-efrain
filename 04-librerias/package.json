@@ -1,17 +1,16 @@
 {
-  "name": "libreria-2020",
+  "name": "libreria-20",
   "version": "1.1.0",
-  "description": "libreria de fundamentos",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fundamaentos",
-    "epn",
+    "epen",
     "libreria",
-    "ejemplo"
+    "20"
   ],
-  "author": "Daniel Aimacaña",
+  "author": "daniel aimacaña",
   "license": "ISC"
 }
