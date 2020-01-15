@@ -60,3 +60,5 @@ console.log(poliPerroAmarillo.duenio.nombres);
 console.log(poliPerroAmarillo.duenio.apellidos);
 console.log(poliPerroAmarillo.duenio.fechaNacimiento);
 console.log(poliPerroAmarillo.duenio.mascotasPerros); 
+
+
