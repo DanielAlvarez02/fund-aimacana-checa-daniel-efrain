@@ -3,9 +3,15 @@
 //const prompts = require ('prompts');
 
 import * as prompts from 'prompts';
+import { RespuestaEdad } from './interfaces/respuesta-edad.interface';
+import { RespuestaNombre } from './interfaces/respuesta-nombre.interface';
+import { repuetaPreguntas } from './interfaces/respuesta-pregunta.interface';
 
 function main(){
-    obtenerDatosAnimaLPerrito();
+    //obtenerDatosAnimaLPerrito(); //Asincrona
+    obtenerDatosAnimaLPerritoSincrono()
+    .then()
+    .catch(); // ->Promesa // Sincrona
 }
 
 function obtenerDatosAnimaLPerrito(){
@@ -55,4 +61,39 @@ function obtenerDatosAnimaLPerrito(){
 
 
 }
+
+
+
+
+async function obtenerDatosAnimaLPerritoSincrono(){
+
+    //Paradigma de programacion
+    // SINCRONO vs ASINCRONO
+    console.log('Inicio');
+
+    const preguntas = [
+        {
+            type: 'number',
+            name: 'edad',
+            message: 'puedes darme tu edad?'
+        },
+        {
+            type: 'text',
+            name: 'cedula',
+            message: 'puedes darme tu cédula?'
+        },
+        {
+            type: 'text',
+            name: 'nombre',
+            message: 'puedes darme tu nombre?'
+        }
+    ]
+    const hola: repuetaPreguntas = await prompts(preguntas);
+    console.log('Respuesta', hola);
+    console.log('Fin');  
+}
+
 main();
+
+
+
