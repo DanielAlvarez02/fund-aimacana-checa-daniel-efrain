@@ -1,0 +1,18 @@
+{
+  "name": "estructura-datos-canciones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "begin": "(tsc canciones.ts --target ES5|| echo) && node canciones.js"
+  },
+  "keywords": [
+    "epn",
+    "canciones"
+  ],
+  "author": "daniel aimacaña",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.3.0"
+  }
+}

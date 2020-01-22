@@ -1,0 +1,11 @@
+{
+  "name": "archivos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "arch": "(tsc 01-archivos.ts --target ES5|| echo) && node 01-archivos.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
