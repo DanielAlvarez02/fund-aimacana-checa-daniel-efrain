@@ -4,15 +4,14 @@ import { elegirOpcion } from "./interfaz/elegir-opcion.interface";
 import { tabla } from './interfaz/tabla.interface';
 
 function main(){
-     datosCanciones();
-     elegirOpcion();
-     
+    datosCanciones();
+    elegirOpcion();
+    crear();
+    espero();     
 }
 
 
 async function datosCanciones(){
-
-    console.log('Inicio');
 
     const preguntas = [
         {
@@ -66,7 +65,7 @@ async function crear()
         type:'number',
         name:'opcion',
         message:'¿Cuantas canciones quieres agregar?',
-        validate: value => value < 0? 
+        validate: value => value < 0? 'aaaaaaa':true
     }
 
     const cancion1:elegirOpcion = await prompts(primeraCancion);
@@ -86,7 +85,7 @@ async function crear()
 
 async function buscar(estructura: datosCanciones[])
 {
-    const buscar: tabla[] = await tabla(estructura);  
+    const CancionABuscar: tabla[] = await tabla(estructura);  
     console.log('\n¿Como desea buscar?\n');
     console.log('1.indice de la cancion.');
     console.log('2.Nombre de la cancion.\n');
@@ -102,11 +101,11 @@ async function buscar(estructura: datosCanciones[])
     switch (numeroDeOpcion)
     {
         case 1:
-            const indiceEncontrado = await buscarPeliculaPorIndice(buscar);
-            await imprimirObjeto(directorio[indiceEncontrado]);
+            const indiceEncontrado = await buscarCancionesPorIndice(buscar);
+            await imprimirObjeto(estructura[indiceEncontrado]);
             break;
         case 2:
-            const peliculaEncontrada = await buscarPeliculaPorNombre(estructura);
+            const peliculaEncontrada = await buscarCancionesPorNombre(estructura);
             await imprimirObjeto(peliculaEncontrada);
             break;
     }
@@ -114,7 +113,7 @@ async function buscar(estructura: datosCanciones[])
 
 async function editarLaEstructura(estructura:datosCanciones[])
 {
-    const buscar:tabla[] = await realizarTabla(estructura);  
+    const buscar:tabla[] = await tabla(estructura);  
     console.log('\n¿Como desea buscar?\n');
     console.log('1.Por indice de la cancion o ');
     console.log('2.Nombre de la cancion.\n');
@@ -130,11 +129,11 @@ async function editarLaEstructura(estructura:datosCanciones[])
     switch(numeroDeOpcion)
     {
         case 1:
-            const indiceEncontrado = await buscarPeliculaPorIndice(buscar);
-            estructura[indiceEncontrado] = await editarPelicula(estructura[indiceEncontrado])
+            const indiceEncontrado = await buscarCancionesPorIndice(buscar);
+            estructura[indiceEncontrado] = await editarCancion(estructura[indiceEncontrado])
             break;
         case 2:
-            const cancionEncontrada = await buscarPeliculaPorNombre(estructura);
+            const cancionEncontrada = await buscarCancionesPorNombre(estructura);
             const indiceCancionEncontrada = estructura.findIndex
             (
                 function(valorActual, indice)
@@ -145,7 +144,7 @@ async function editarLaEstructura(estructura:datosCanciones[])
                     }
                 }
             );
-            estructura[indiceCancionEncontrada] = await editarPelicula(estructura[indiceCancionEncontrada]);
+            estructura[indiceCancionEncontrada] = await editarCancion(estructura[indiceCancionEncontrada]);
             break;
     }
     return estructura;
@@ -160,7 +159,7 @@ async function agregarCancion(estructura: any[])
 
 async function eliminar(estructura:datosCanciones[])
 {
-    const tablaCancionesBuscar:tabla[] = await realizarTabla(directorio);  
+    const tablaCancionesBuscar:tabla[] = await tabla(estructura);  
     console.log('\n¿Como desea buscar la canción?\n');
     console.log('1.Por el indice de la canción o ');
     console.log('2.el nombre de la canción.\n');
@@ -176,11 +175,11 @@ async function eliminar(estructura:datosCanciones[])
     switch (numeroDeOpcion)
     {
         case 1:
-            const indiceEncontrado = await buscarPeliculaPorIndice(tablaCancionesBuscar);
+            const indiceEncontrado = await buscarCancionesPorIndice(tablaCancionesBuscar);
             estructura.splice(indiceEncontrado,1);
             break;
         case 2:
-            const cancionEncontrada = await buscarPeliculaPorNombre(estructura);
+            const cancionEncontrada = await buscarCancionesPorNombre(estructura);
             const indiceCancionEncontrada = estructura.findIndex
             (
                 function(valorActual, indice)
@@ -210,28 +209,28 @@ async function menu(estructura: any[])
     {
         case 1: 
             await buscar(estructura);
-            await esperear();
+            await espero();
             await menu(estructura);
             break;
         case 2:
             estructura = await editarLaEstructura(estructura);
             console.log("\nLas canciones son:\n");
-            await imprimirPeliculas(estructura)   
-            await esperear();
+            await imprimir(estructura)   
+            await espero();
             await menu(estructura);
             break;
         case 3:
             estructura = await eliminar(estructura);
             console.log("\nLas cacnciones son:\n");
-            await imprimirPeliculas(estructura);
-            await esperear()
+            await imprimir(estructura);
+            await espero()
             await menu(estructura);
             break;
         case 4:
             estructura = await agregarCancion(estructura);
             console.log("\nLas cacniones son:\n");
-            await imprimirPeliculas(estructura)            
-            await esperear(); 
+            await imprimir(estructura)            
+            await espero(); 
             await menu(estructura);
             break;
         default: 
