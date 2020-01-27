@@ -85,7 +85,7 @@ async function crear()
 
 async function buscar(estructura: datosCanciones[])
 {
-    const CancionABuscar: tabla[] = await tabla(estructura);  
+    const buscar = await tabla(estructura);  
     console.log('\n¿Como desea buscar?\n');
     console.log('1.indice de la cancion.');
     console.log('2.Nombre de la cancion.\n');
