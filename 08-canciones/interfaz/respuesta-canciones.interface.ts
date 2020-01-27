@@ -3,5 +3,5 @@ export interface datosCanciones{
     genero: string;
     autor: number;
     album: string;
-    año: number;
+    anio: number;
 }
