@@ -37,16 +37,23 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var _02_leer_archivo_1 = require("./02-leer-archivo");
+var escribir_archivo_1 = require("./escribir-archivo");
 var prompts = require("prompts");
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var contador, contenidoArchivo, arregloCargadoArchivo, arregloEstudiantes, arregloPreguntas, respuestaEstudianteUno, nuevoRegistroUno, respuestaEstudianteDos, nuevoRegistro, idBuscar, indiceEncontrado, nombreEditar, buscar, estudianteEncontrado;
+        var contador, contenidoArchivo, arregloCargadoArchivo, arregloCargadoArchivo_1, arregloEstudiantes, arregloPreguntas, respuestaEstudianteUno, nuevoRegistroUno, respuestaEstudianteDos, nuevoRegistro, idBuscar, indiceEncontrado, nombreEditar, buscar, estudianteEncontrado, arregloTexto;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
                     contador = 1;
                     contenidoArchivo = _02_leer_archivo_1.leerArchivo('./ejemplo.txt');
-                    arregloCargadoArchivo = JSON.parse(contenidoArchivo);
+                    try {
+                        arregloCargadoArchivo_1 = JSON.parse('MaMa');
+                    }
+                    catch (error) {
+                        arregloCargadoArchivo = [];
+                        console.error('error parseando archivo');
+                    }
                     arregloEstudiantes = arregloCargadoArchivo;
                     arregloPreguntas = [{
                             type: 'text',
@@ -72,7 +79,7 @@ function main() {
                         nombre: respuestaEstudianteDos.nombre
                     };
                     arregloEstudiantes.push(nuevoRegistro);
-                    console.log('¿Cula usuario editar?');
+                    console.log('¿Cual usuario editar?');
                     console.log(arregloEstudiantes);
                     return [4 /*yield*/, prompts({
                             type: 'number',
@@ -112,9 +119,19 @@ function main() {
                         return valorActual.nombre == buscar.nombre;
                     });
                     console.log(estudianteEncontrado);
+                    arregloTexto = JSON.stringify(arregloEstudiantes);
+                    console.log(arregloTexto);
+                    escribir_archivo_1.escribirArchivo('./ejemplo.txt', arregloTexto);
                     return [2 /*return*/];
             }
         });
     });
 }
 main();
+//Parsear -> Texto -> estructura en memoria
+/*
+{
+    "nombre": "Daniel"
+}
+
+*/

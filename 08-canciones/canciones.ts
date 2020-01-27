@@ -4,10 +4,7 @@ import { elegirOpcion } from "./interfaz/elegir-opcion.interface";
 import { tabla } from './interfaz/tabla.interface';
 
 function main(){
-    datosCanciones();
-    elegirOpcion();
-    crear();
-    espero();     
+    
 }
 
 
@@ -286,7 +283,7 @@ async function buscarCancionesPorIndice(tablaCanciones: tabla[])
             validate: value => (value < 0 || value > tabla.length)? `Esa cancion no existe`:true
         }
     )
-    const indiceEncontrado:number = tabla.findIndex
+    const indiceEncontrado:number = tablaCanciones.findIndex
     (
         function(valorActual, indice, arreglo)
         {
@@ -325,7 +322,7 @@ async function imprimirObjeto(cancion: datosCanciones)
     console.log('Año:\t',cancion.anio);
 }
 
-export async function editarCancion(cancion:datosCanciones)
+async function editarCancion(cancion:datosCanciones)
 {
     console.log("\nDe la cancion " + cancion.cancion + "Que desea editar:\n");
     console.log('1.Nombre:\t', cancion.cancion);
@@ -395,3 +392,5 @@ export async function editarCancion(cancion:datosCanciones)
     await imprimirObjeto(cancion);
     return cancion;
 }
+
+main();

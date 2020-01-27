@@ -5,12 +5,56 @@ import * as prompts from 'prompts';
 
 async function main(){
 
-    let contador = 1;
+    let minimoId = -1;
+
+    //Operadores
+    arregloCargadoArchivo
+
+        .forEach( //NO ENVIAN NADA Y NO SE LES DEVUELVE NADA
+                  //ITERAR
+            function(valorActual){
+                const idActual = valorActual.id;
+                if(idActual > minimoId){
+                    minimoId = idActual
+                }
+
+            }
+        );
     const contenidoArchivo = leerArchivo(
         './ejemplo.txt'
     );
+    minimoId = minimoId + 1;
 
-    const arregloCargadoArchivo = JSON.parse(contenidoArchivo);
+    let arregloCargadoArchivo;
+
+    try{
+        const arregloCargadoArchivo = JSON.parse('MaMa');
+
+    } catch(error){
+        arregloCargadoArchivo = [];
+        console.error('error parseando archivo');
+    }
+
+    /*try{
+        let a = 1;
+        a = 2;
+        a = 3;
+        var a = b;
+        console.log('1');
+        console.log('2');
+        console.log('3');
+        console.log('3');
+        console.log('4');
+        console.log('5');
+        console.log('6');
+        throw new ReferenceError ("El archivo esta mal parseado");
+    }catch {
+        console.log(error);
+        console.log(':3');
+        
+    }*/
+
+
     const arregloEstudiantes: Estudiante[] = arregloCargadoArchivo;
     const arregloPreguntas = [{
 
@@ -41,7 +85,7 @@ async function main(){
 
     arregloEstudiantes.push(nuevoRegistro);
 
-    console.log('¿Cula usuario editar?')
+    console.log('¿Cual usuario editar?')
     
     console.log(arregloEstudiantes);
 
@@ -97,6 +141,11 @@ async function main(){
                 );
     console.log(estudianteEncontrado);
 
+    //JSON.stringify -> convierte objeto o arreglo en memoria
+    const arregloTexto = JSON.stringify(arregloEstudiantes);
+    console.log(arregloTexto);
+    escribirArchivo('./ejemplo.txt', arregloTexto);
+
 
 
 
@@ -115,5 +164,16 @@ async function main(){
 }
 
 main();
+
+//Parsear -> Texto -> estructura en memoria
+
+/*
+{
+    "nombre": "Daniel"
+}
+
+*/
+
+
 
 
