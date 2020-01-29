@@ -1,4 +1,0 @@
-[
-{"id":1,"nombre":"sa"},
-{"id":2,"nombre":"ds"}
-]
