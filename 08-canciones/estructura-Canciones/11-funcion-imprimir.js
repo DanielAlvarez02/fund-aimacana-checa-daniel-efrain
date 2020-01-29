@@ -40,12 +40,16 @@ function imprimir(directorio) {
     return __awaiter(this, void 0, void 0, function () {
         var longitud, i;
         return __generator(this, function (_a) {
-            longitud = directorio.length;
-            console.log('Posicion\t Nombre');
-            for (i = 1; i <= longitud; i++) {
-                console.log("   " + i + ".\t\t", directorio[i - 1].cancion + ".");
+            switch (_a.label) {
+                case 0: return [4 /*yield*/, directorio.length];
+                case 1:
+                    longitud = _a.sent();
+                    console.log('Posicion\t Nombre');
+                    for (i = 1; i <= longitud; i++) {
+                        console.log("   " + i + ".\t\t", directorio[i - 1].cancion + ".");
+                    }
+                    return [2 /*return*/];
             }
-            return [2 /*return*/];
         });
     });
 }

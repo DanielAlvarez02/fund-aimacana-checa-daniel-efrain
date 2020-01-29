@@ -81,7 +81,7 @@ function editarDirectorio(directorio) {
                 case 7:
                     peliculaEncontrada_1 = _f.sent();
                     indicePeliculaEncontrada = directorio.findIndex(function (valorActual, indice) {
-                        if (valorActual.nombre == peliculaEncontrada_1.nombre) {
+                        if (valorActual.cancion == peliculaEncontrada_1.cancion) {
                             return indice;
                         }
                     });

@@ -45,8 +45,8 @@ function editar(cancion) {
         return __generator(this, function (_b) {
             switch (_b.label) {
                 case 0:
-                    console.log("\nDe la canción " + cancion.nombre + "Que va a editar:\n");
-                    console.log('Nombre:\t\t', cancion.nombre);
+                    console.log("\nDe la canción " + cancion.cancion + "Que va a editar:\n");
+                    console.log('Nombre:\t\t', cancion.cancion);
                     console.log('Autor:\t', cancion.autor);
                     console.log('Genero:\t\t', cancion.genero);
                     console.log('Album:\t', cancion.album);
@@ -69,7 +69,7 @@ function editar(cancion) {
                     })];
                 case 3:
                     nuevoNombre = _b.sent();
-                    cancion.nombre = nuevoNombre.nuevoNombre;
+                    cancion.cancion = nuevoNombre.nuevoNombre;
                     return [3 /*break*/, 12];
                 case 4: return [4 /*yield*/, prompts({
                         type: 'text',

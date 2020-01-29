@@ -37,7 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var prompts = require("prompts");
-function buscarCancionPorIndice(tablaPeliculas) {
+function buscarCancionPorIndice(tabla) {
     return __awaiter(this, void 0, void 0, function () {
         var idABuscar, indiceEncontrado;
         return __generator(this, function (_a) {
@@ -46,11 +46,11 @@ function buscarCancionPorIndice(tablaPeliculas) {
                         type: 'number',
                         name: 'id',
                         message: "Ingresa el indice de la cancion que busca:",
-                        validate: function (value) { return (value < 0 || value > tablaPeliculas.length) ? "No existe" : true; }
+                        validate: function (value) { return (value < 0 || value > tabla.length) ? "No existe" : true; }
                     })];
                 case 1:
                     idABuscar = _a.sent();
-                    indiceEncontrado = tablaPeliculas.findIndex(function (valorActual, indice, arreglo) {
+                    indiceEncontrado = tabla.findIndex(function (valorActual, indice, arreglo) {
                         return valorActual.id == idABuscar.id;
                     });
                     return [2 /*return*/, indiceEncontrado];

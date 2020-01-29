@@ -39,9 +39,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 function imprimir(cancion) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
-            console.log('Nombre:\t\t', cancion.nombre);
+            console.log('Nombre:\t', cancion.cancion);
             console.log('Autor:\t', cancion.autor);
-            console.log('Genero:\t\t', cancion.genero);
+            console.log('Genero:\t', cancion.genero);
             console.log('Album:\t', cancion.album);
             console.log('Año:\t', cancion.año);
             return [2 /*return*/];

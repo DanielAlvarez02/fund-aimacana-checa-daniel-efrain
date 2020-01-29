@@ -38,18 +38,18 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 Object.defineProperty(exports, "__esModule", { value: true });
 function realizarTabla(directorio) {
     return __awaiter(this, void 0, void 0, function () {
-        var longitud, tablaPeliculas, i;
+        var longitud, tabla, i;
         return __generator(this, function (_a) {
             longitud = directorio.length;
-            tablaPeliculas = [];
+            tabla = [];
             for (i = 1; i <= longitud; i++) {
-                tablaPeliculas[i - 1] =
+                tabla[i - 1] =
                     {
                         id: i,
-                        nombre: directorio[i - 1].nombre
+                        nombre: directorio[i - 1].cancion
                     };
             }
-            return [2 /*return*/, tablaPeliculas];
+            return [2 /*return*/, tabla];
         });
     });
 }

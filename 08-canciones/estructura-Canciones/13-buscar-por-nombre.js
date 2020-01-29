@@ -50,7 +50,7 @@ function buscarCancionPorNombre(directorio) {
                 case 1:
                     cancionABuscar = _a.sent();
                     cancionEncontrada = directorio.find(function (valorActual) {
-                        return valorActual.nombre == cancionABuscar.nombre;
+                        return valorActual.cancion == cancionABuscar.cancion;
                     });
                     return [2 /*return*/, cancionEncontrada];
             }
