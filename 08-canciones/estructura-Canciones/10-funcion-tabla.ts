@@ -4,14 +4,14 @@ import { tablaInterface } from "../interfaz/table.interface";
 export async function realizarTabla(directorio: cancionInter[])
 {
     const longitud = directorio.length;
-    const tablaPeliculas:tablaInterface[] = []
+    const tabla:tablaInterface[] = []
     for(let i = 1;i <= longitud; i ++)
     {
-        tablaPeliculas[i-1] =
+        tabla[i-1] =
         {
             id: i,
-            nombre: directorio[i-1].nombre
+            nombre: directorio[i-1].cancion
         }
     }
-    return tablaPeliculas;
+    return tabla;
 }
