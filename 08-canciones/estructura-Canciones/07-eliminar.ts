@@ -33,7 +33,7 @@ export async function eliminar(directorio:cancionInter[])
             (
                 function(valorActual, indice)
                 {
-                    if(valorActual.nombre == cancionEncontrada.nombre)
+                    if(valorActual.cancion == cancionEncontrada.cancion)
                     {
                         return indice;
                     }

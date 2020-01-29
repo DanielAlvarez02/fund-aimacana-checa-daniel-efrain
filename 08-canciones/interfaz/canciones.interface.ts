@@ -1,6 +1,6 @@
 export interface cancionInter
 {
-    nombre: string,
+    cancion: string,
     genero: string,
     autor: string,
     album: string,

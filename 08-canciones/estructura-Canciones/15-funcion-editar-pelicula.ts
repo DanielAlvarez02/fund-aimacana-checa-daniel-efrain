@@ -5,8 +5,8 @@ import { imprimir } from './14-imprimir-objeto';
 
 export async function editar(cancion:cancionInter)
 {
-    console.log("\nDe la canción " + cancion.nombre + "Que va a editar:\n");
-    console.log('Nombre:\t\t', cancion.nombre);
+    console.log("\nDe la canción " + cancion.cancion + "Que va a editar:\n");
+    console.log('Nombre:\t\t', cancion.cancion);
     console.log('Autor:\t', cancion.autor);
     console.log('Genero:\t\t',cancion.genero);
     console.log('Album:\t',cancion.album);
@@ -23,7 +23,7 @@ export async function editar(cancion:cancionInter)
                     message:'Ingrese el nuevo nombre:'
                 }
             );
-            cancion.nombre = nuevoNombre.nuevoNombre;
+            cancion.cancion = nuevoNombre.nuevoNombre;
             break;
         case 2:
             const nuevoGenero = await prompts

@@ -34,7 +34,7 @@ export async function editarDirectorio (directorio:cancionInter[])
             (
                 function(valorActual, indice)
                 {
-                    if(valorActual.nombre == peliculaEncontrada.nombre)
+                    if(valorActual.cancion == peliculaEncontrada.cancion)
                     {
                         return indice;
                     }

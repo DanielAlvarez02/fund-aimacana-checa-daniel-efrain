@@ -15,7 +15,7 @@ export async function buscarCancionPorNombre(directorio: cancionInter[])
     (
         function(valorActual)
         {
-            return valorActual.nombre == cancionABuscar.nombre;
+            return valorActual.cancion == cancionABuscar.cancion;
         }
     )
     return cancionEncontrada;
