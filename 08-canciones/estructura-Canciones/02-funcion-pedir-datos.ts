@@ -1,17 +1,8 @@
+import { cancionInter } from "../interfaz/canciones.interface";
 import * as prompts from 'prompts';
-import { datosCanciones } from './interfaz/respuesta-canciones.interface';
 
-function main(){
-     datosCanciones();
-}
-
-
-async function datosCanciones(){
-
-    //Paradigma de programacion
-    // SINCRONO vs ASINCRONO
-    console.log('Inicio');
-
+export async function datosCanciones()
+{
     const preguntas = [
         {
             type: 'text',
@@ -40,13 +31,6 @@ async function datosCanciones(){
         }
     ]
     
-    const canciones: datosCanciones = await prompts(preguntas);
-    console.log('Respuesta',canciones);
-    console.log('Fin');  
-}
-main();
-
-
-function obtenerCanciones(){
-    
+    const canciones: cancionInter = await prompts(preguntas);
+    return canciones;
 }

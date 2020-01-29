@@ -37,53 +37,24 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var prompts = require("prompts");
-function main() {
-    datosCanciones();
-}
-function datosCanciones() {
+function buscarCancionPorNombre(directorio) {
     return __awaiter(this, void 0, void 0, function () {
-        var preguntas, canciones;
+        var cancionABuscar, cancionEncontrada;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0:
-                    //Paradigma de programacion
-                    // SINCRONO vs ASINCRONO
-                    console.log('Inicio');
-                    preguntas = [
-                        {
-                            type: 'text',
-                            name: 'cancion',
-                            message: '¿puedes darme el nombre de tu cancion favorita?'
-                        },
-                        {
-                            type: 'text',
-                            name: 'genero',
-                            message: '¿puedes darme el género de tu canción favorita'
-                        },
-                        {
-                            type: 'text',
-                            name: 'autor',
-                            message: '¿puedes darme el nombre del autor o autora?'
-                        },
-                        {
-                            type: 'text',
-                            name: 'album',
-                            message: '¿puedes darme el nombre del álbum?'
-                        },
-                        {
-                            type: 'number',
-                            name: 'año',
-                            message: '¿puedes darme el nombre del año de publicación?'
-                        }
-                    ];
-                    return [4 /*yield*/, prompts(preguntas)];
+                case 0: return [4 /*yield*/, prompts({
+                        type: 'text',
+                        name: 'nombre',
+                        message: "Ingresa el nombre de la canción que busca:",
+                    })];
                 case 1:
-                    canciones = _a.sent();
-                    console.log('Respuesta', canciones);
-                    console.log('Fin');
-                    return [2 /*return*/];
+                    cancionABuscar = _a.sent();
+                    cancionEncontrada = directorio.find(function (valorActual) {
+                        return valorActual.nombre == cancionABuscar.nombre;
+                    });
+                    return [2 /*return*/, cancionEncontrada];
             }
         });
     });
 }
-main();
+exports.buscarCancionPorNombre = buscarCancionPorNombre;

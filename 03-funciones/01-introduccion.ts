@@ -2,7 +2,7 @@
 function log(
     cualquierCosa //PARAMETRO
     ){
-    console.log(cualquierCosa);
+    return a + b;
 }
 log("Hola Mundo");
 
