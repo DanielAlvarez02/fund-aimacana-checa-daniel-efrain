@@ -43,7 +43,7 @@ function imprimir(directorio) {
             longitud = directorio.length;
             console.log('Posicion\t Nombre');
             for (i = 1; i <= longitud; i++) {
-                console.log("   " + i + ".\t\t", directorio[i - 1].nombre + ".");
+                console.log("   " + i + ".\t\t", directorio[i - 1].cancion + ".");
             }
             return [2 /*return*/];
         });

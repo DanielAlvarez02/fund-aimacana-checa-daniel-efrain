@@ -31,6 +31,6 @@ export async function datosCanciones()
         }
     ]
     
-    const canciones: cancionInter = await prompts(preguntas);
+    const canciones = await prompts(preguntas);
     return canciones;
 }
